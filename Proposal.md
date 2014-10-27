@@ -10,13 +10,11 @@ Research in a number of domains also shows that a lack of time, incentive, and t
 
 This project proposes the exploration of an emerging science software "minimal metadata" standard in JSON-LD - which offers a simple, core set of attributes to uniformly describe  scientific software in lightweight semantic format. The JSON-LD minimal standard will ease the burden of creating metadata, and also improves the discoverability of software. 
 
-This proposal builds off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare - and directly contributes to the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS. 
+This proposal builds off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare - and directly contributes to the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS, in following ways:
 
-This project will contribute to the development of this standard through: 
+1. Completing a cross walking exercise that maps attribute value pairs from different existing software metadta standards. 
 
-1. A cross walking exercise that maps attribute value pairs from many different existing standards. As the project matures, these categories will converge on a minimum set.
-
-2. Use Cases from ESIP community 
+2. Developuing a set of use cases from ESIP community software. 
 
 Developing a descriptive metadata standard is a first step in achieving a robust network of software archives. Tools like [Fidgit](https://github.com/openjournals/fidgit) - which are developed to lower the barrier to archiving and obtaining a persistent identifier for code can then be leveraged and used by this network. 
 
