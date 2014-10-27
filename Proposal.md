@@ -4,17 +4,27 @@
 ### Project Description 
 
 **Introduction**
-The discovery and meaningful reuse of research software depends, in part, on accurate metadata. There are many different community standards for describing the contents of a software package, a codebase, or a library package - but these are often substantively different in the attributes that are described, and the details in which they are described - making it difficult to facilitate the discovery of potentially valuable software through APIs or search engines. 
+The discovery and meaningful reuse of research software depends, in part, on accurate and meaninful descriptive metadata. Existing standards are often too specific (e.g. focused on a narrow stakeholder group or programming languag) or too generic (i.e. extensions of metadata schemas used for related digital objects- such as DCMI) to 
 
-Research in a number of domains also shows that a lack of time, incentive, and training in the creation of metadata hampers progress in sharing, and reusing research objects [e.g. Edwards et al., 2011].
-
-This project proposes the exploration of an emerging science software "minimal metadata" standard in JSON-LD - which offers a simple, core set of attributes to uniformly describe  scientific software in lightweight semantic format. The JSON-LD minimal standard will ease the burden of creating metadata, and also improves the discoverability of software. 
+This testbed project will contribute an emerging descritpive metadat standard for scientific data. (add in part about JSON-LD here which offers a simple, core set of attributes to uniformly describe  scientific software in lightweight semantic format. The JSON-LD minimal standard will ease the burden of creating metadata, and also improves the discoverability of software. 
 
 This proposal builds off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare - and directly contributes to the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS, in following ways:
 
-1. Completing a cross walking exercise that maps attribute value pairs from different existing software metadta standards. 
+1. Completing a cross walking exercise that maps attribute value pairs from different existing software metadta standards. These include (but are not limited to):
+ 
+- [Software Ontology (SWO)](http://www.jbiomedsem.com/content/5/1/25)
+- [eml-software](http://knb.ecoinformatics.org/sofwtare/eml)
+- [EBM Tools database](http://www.ebmtools.org/)
+- [DataONE Software registry](https://www.dataone.org/software-tools)
+- [Winning model documentation](https://www.kaggle.com/wiki/WinningModelDocumentationTemplate)
+- [MyExperiment workflow repository](http://www.myexperiment.org/)
+- Language/System specific package frameworks
+    - [Debian packages](http://www.fossology.org/projects/fossology/wiki/Debian_metadata)
+    - [CRAN R packages](e.g. http://cran.r-project.org/web/packages/spBayesSurv/index.html)
+    - [RPM packages](e.g. http://rpmfind.net/linux/rpm2html/mirroring.html)
 
-2. Developuing a set of use cases from ESIP community software. 
+2. Develop a set of use cases from ESIP community software. This will include:
+- Sample of 
 
 Developing a descriptive metadata standard is a first step in achieving a robust network of software archives. Tools like [Fidgit](https://github.com/openjournals/fidgit) - which are developed to lower the barrier to archiving and obtaining a persistent identifier for code can then be leveraged and used by this network. 
 
