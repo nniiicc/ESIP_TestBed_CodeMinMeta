@@ -28,11 +28,7 @@ This proposal builds off of the the "code as a research object" project by Mozil
 
 Developing a descriptive metadata standard is a first step in achieving a robust network of software archives. Tools like [Fidgit](https://github.com/openjournals/fidgit) - which are developed to lower the barrier to archiving and obtaining a persistent identifier for code can then be leveraged and used by this network. 
 
-## Schedule of Completion: 
-
-![](https://raw.githubusercontent.com/nniiicc/ESIP_TestBed_CodeMinMeta/master/Images/Gantt-MinMeta.png)
-
-**Some questions and some (preliminary answers):** 
+**Some questions and some (preliminary answers)** 
 
 *Doesn't the DOAP project propose to do exactly this?*
 
@@ -56,17 +52,24 @@ Two limitations to depending - solely- on DOAP for doing this:
 
 XML can play too. 
 
+**Open Questions**
+ 
+*Controlled vocabulary*
+
+Deciding on ESIP relevant CV for subject categories [e.g. we can do better than the original proposal to use [PLoS's taxonomy](http://www.plosone.org/taxonomy) for academic subjects]
+ 
+*Function of software*
+
+How do we "uniformally"  the *function* of software? This will require best practices guidelines and likely to be major contribution of use cases. 
 
 ### Project Plan, and Timeline
 
+**Project Plan** 
 
-Major work of the use cases will be on the following:   
 
-1. Working with the ESIP community to identify a set of target use cases and picking one or two to use in this project.
-2. Testing and exploring the use of different subject categories [i.e., we believe we can do better than the original proposal for using [PLoS's taxonomy](http://www.plosone.org/taxonomy) of academic subjects]
- 
-2. Coming up with guidelines and suggest practices for describing the function of the software. 
+**Timeline**
 
+![](https://raw.githubusercontent.com/nniiicc/ESIP_TestBed_CodeMinMeta/master/Images/Gantt-MinMeta.png)
 
 
 ### Names and Roles of Team Member
