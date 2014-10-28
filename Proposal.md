@@ -4,11 +4,11 @@
 ### Project Description 
 
 **Introduction**
-The discovery and meaningful reuse of research software depends, in part, on accurate and meaninful descriptive metadata. Existing standards are often too specific (e.g. focused on a narrow stakeholder group or programming languag) or too generic (i.e. extensions of metadata schemas used for related digital objects- such as DCMI) to 
+The discovery and meaningful reuse of research software depends, in part, on accurate and meaninful descriptive metadata. Existing standards are often too specific (e.g. focused on a narrow stakeholder group or programming language) or too generic (i.e. extensions of metadata schemas used for related digital objects- such as DCMI) to 
 
-This testbed project will contribute an emerging descritpive metadat standard for scientific data. (add in part about JSON-LD here which offers a simple, core set of attributes to uniformly describe  scientific software in lightweight semantic format. The JSON-LD minimal standard will ease the burden of creating metadata, and also improves the discoverability of software. 
+This testbed project will contribute an emerging descritpive metadata standard for scientific data. (add in part about JSON-LD) ... here which offers a simple, core set of attributes to uniformly describe scientific software in lightweight semantic format. The JSON-LD minimal standard will ease the burden of creating metadata, and also improves the discoverability of software. 
 
-This proposal builds off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare - and directly contributes to the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS, in following ways:
+This proposal builds off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare - and directly contributes to the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS, in the following ways:
 
 1. Completing a cross walking exercise that maps attribute value pairs from different existing software metadta standards. These include (but are not limited to):
  
@@ -23,8 +23,9 @@ This proposal builds off of the the "code as a research object" project by Mozil
     - [CRAN R packages](e.g. http://cran.r-project.org/web/packages/spBayesSurv/index.html)
     - [RPM packages](e.g. http://rpmfind.net/linux/rpm2html/mirroring.html)
 
-2. Develop a set of use cases from ESIP community software. This will include:
-- Sample of 
+2. Develop a set of use cases from ESIP community software. This might include:
+
+- Sample of : -- 
 
 Developing a descriptive metadata standard is a first step in achieving a robust network of software archives. Tools like [Fidgit](https://github.com/openjournals/fidgit) - which are developed to lower the barrier to archiving and obtaining a persistent identifier for code can then be leveraged and used by this network. 
 
