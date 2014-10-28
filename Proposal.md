@@ -28,6 +28,9 @@ This proposal builds off of the the "code as a research object" project by Mozil
 
 Developing a descriptive metadata standard is a first step in achieving a robust network of software archives. Tools like [Fidgit](https://github.com/openjournals/fidgit) - which are developed to lower the barrier to archiving and obtaining a persistent identifier for code can then be leveraged and used by this network. 
 
+## Schedule of Completion: 
+
+![](https://raw.githubusercontent.com/nniiicc/ESIP_TestBed_CodeMinMeta/master/Images/Gantt-MinMeta.png)
 
 **Some questions and some (preliminary answers):** 
 
