@@ -1,12 +1,12 @@
 
-<center><h1>A Minimal Metadata Standard for ESIP Software/h1></center>
+<center><h1>A Minimal Metadata Standard for ESIP Software</h1></center>
 
 ### Project Description 
 
 **Introduction**
-The discovery and meaningful reuse of research software depends, in part, on accurate and meaninful descriptive metadata. While there are a number of existing metadata standards for software these are often too specific (e.g. focused on a narrow stakeholder group or programming language) or too generic (i.e. extensions of metadata schemas used for related digital objects- such as DCMI) for accurately describing science software. 
+The discovery and meaningful reuse of research software depends, in part, on accurate and meaninful descriptive metadata. While there a number of software metadata standards exist, these are often too specific (e.g. focused on a narrow stakeholder group or programming language) or too generic (i.e. extensions of metadata schemas used for related digital objects- such as DCMI) for accurately describing science software. 
 
-This test bed project will contribute to ongoing efforts to develop a minimal metadata standard for science software in JSON-LD lightweight semantic format. In particular, we will build off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare - and directly contribute to the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS, in the following ways:
+This test bed project will contribute to ongoing efforts to develop a minimal metadata standard for science software in JSON-LD - a lightweight semantic format. In particular, we will build off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare - and directly contribute to the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS. Our initial work will include:
 
 1. Completing a cross walking exercise that maps attribute value pairs from different existing software metadta standards. These include (but are not limited to):
  
@@ -61,8 +61,7 @@ We are seeking funds, largely, to formally publish the findings from our use cas
  
 - *Function of software* : How do we "uniformally"  the *function* of software? This will require best practices guidelines and likely to be major contribution of use cases. 
 
-### Project Plan, and Timeline
-
+### Timeline
 
 **Timeline**
 
@@ -78,15 +77,6 @@ The activities described above will be carried out following the schedule below:
 | Nic Weber | Role | PhD candidate in Information Science at University of Illinois. Experience in developing standards and policy for Data Conservancy, and linked data applications. |
 | You  | Your Role | Your qualifications |
 
-### Intended Outcomes and Contribution to ESIP (and broader) Community 
-
-1. Comprehensive crosswalk of existing descriptive metadata standards.
-
-2. A set of ESIP community use cases.  
-
-3. A white paper with best practice recommendations for using the standards
-
-4. A formal publication - in an open access journal - that describes the use cases in detail, as well as the progress that we've made. 
 
 ### Budget
 
