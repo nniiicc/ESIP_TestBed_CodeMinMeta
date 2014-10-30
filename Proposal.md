@@ -1,14 +1,12 @@
 
-<center><h1>A Minimal Metadata Standard for ESIP Software in JSON-LD</h1></center>
+<center><h1>A Minimal Metadata Standard for ESIP Software/h1></center>
 
 ### Project Description 
 
 **Introduction**
-The discovery and meaningful reuse of research software depends, in part, on accurate and meaninful descriptive metadata. Existing standards are often too specific (e.g. focused on a narrow stakeholder group or programming language) or too generic (i.e. extensions of metadata schemas used for related digital objects- such as DCMI) to 
+The discovery and meaningful reuse of research software depends, in part, on accurate and meaninful descriptive metadata. While there are a number of existing metadata standards for software these are often too specific (e.g. focused on a narrow stakeholder group or programming language) or too generic (i.e. extensions of metadata schemas used for related digital objects- such as DCMI) for accurately describing science software. 
 
-This testbed project will contribute an emerging descritpive metadata standard for scientific data. (add in part about JSON-LD) ... here which offers a simple, core set of attributes to uniformly describe scientific software in lightweight semantic format. The JSON-LD minimal standard will ease the burden of creating metadata, and also improves the discoverability of software. 
-
-This proposal builds off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare - and directly contributes to the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS, in the following ways:
+This test bed project will contribute to ongoing efforts to develop a minimal metadata standard for science software in JSON-LD lightweight semantic format. In particular, we will build off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare - and directly contribute to the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS, in the following ways:
 
 1. Completing a cross walking exercise that maps attribute value pairs from different existing software metadta standards. These include (but are not limited to):
  
@@ -23,15 +21,13 @@ This proposal builds off of the the "code as a research object" project by Mozil
     - [CRAN R packages](e.g. http://cran.r-project.org/web/packages/spBayesSurv/index.html)
     - [RPM packages](e.g. http://rpmfind.net/linux/rpm2html/mirroring.html)
 
-2. Develop a set of use cases from ESIP community software. This might include:
+2. From this crosswalking exercise, we will work in conjunction with other domains to create a minumum, or core, set of variables that can reliably describe the form and function of research software. This will include two rounds of use cases from the ESIP community (more details below). 
 
-- Sample of : -- 
-
-Developing a descriptive metadata standard is a first step in achieving a robust network of software archives. Tools like [Fidgit](https://github.com/openjournals/fidgit) - which are developed to lower the barrier to archiving and obtaining a persistent identifier for code can then be leveraged and used by this network. 
+This coordinated work should make it possible for tools like [Fidgit](https://github.com/openjournals/fidgit) -  developed to lower the barrier to archiving and obtaining a persistent identifier for code -  to be leveraged and used by a broader network of software archves. 
 
 **Some questions and some (preliminary answers)** 
 
-*Doesn't the DOAP project propose to do exactly this?*
+*Doesn't the DOAP project already provide an ontology for describing science software?*
 
 The Description Of A Project (DOAP) ontology is very relevant to this project- but in short, No. 
 
@@ -39,7 +35,7 @@ The Description Of A Project (DOAP) ontology is very relevant to this project- b
 
 Here, we're interested in exploring a number of different standards, including DOAP - and finding a minimal - or 'core' set of attribute value pairs (in the [Dublin Core](http://dublincore.org/documents/dces/) / [Darwin Core](http://rs.tdwg.org/dwc/)sense) for describing scientific software - notably Earth System Science software that is developed and used in the ESIP community. 
 
-Two limitations to depending - solely- on DOAP for doing this: 
+The limitations to depending - solely- on DOAP for doing this are: 
 
 1. It is aimed at RDF - and well, RDF gets complicated quickly. We want to do something lightweight and easily adoptable. 
 
@@ -47,28 +43,30 @@ Two limitations to depending - solely- on DOAP for doing this:
 
 *Why JSON-LD?*
 
-[JSON-LD]() is a lightweight format that offers semantic meaning at a substantially lower barrier of creation than RDF, it has emerged over the last 2-3 years as the standard for serving data via APIs, and more importantly for our work here, it can leverage existing ontologies, like 'creative works' in [schema.org](http://schema.org/Code), for describing a codebase.
+[JSON-LD](http://json-ld.org/) is a lightweight format that offers semantic meaning at a substantially lower barrier of creation than RDF, it has emerged over the last 2-3 years as the standard for serving data via APIs, and more importantly for our work here, it can leverage existing ontologies, like 'creative works' in [schema.org](http://schema.org/Code), for describing a codebase.
 
-**Why not XML**
+*How does the ESIP community benefit from this work?*
 
-XML can play too. 
+After completing the crosswalking exercise we will complete 3-5 use cases from ESIP software. This will include working with a software producer to create the metadata using our minimum standard -and then asking users (potential and actual) of that softare to judge the quality, and meaningfullness of these descriptions. 
 
-**Open Questions**
+We will report on this work at the 2015 ESIP Summer Meeting, and contribute our findings back to the 'code as a research object' project. At the summer meeting we will solicit another 3-5 candidate use cases, and complete these with the refined minumum standard. 
+
+This work will produce a white paper with best practices for creating metadata using the standard. 
+
+We are seeking funds, largely, to formally publish the findings from our use cases in an open access journal. 
+
+**Open Questions to be addressed in our early work**
  
-*Controlled vocabulary*
-
-Deciding on ESIP relevant CV for subject categories [e.g. we can do better than the original proposal to use [PLoS's taxonomy](http://www.plosone.org/taxonomy) for academic subjects]
+- *Controlled vocabulary* : Deciding on ESIP relevant CV for subject categories [e.g. we can do better than the original proposal to use [PLoS's taxonomy](http://www.plosone.org/taxonomy) for academic subjects]
  
-*Function of software*
-
-How do we "uniformally"  the *function* of software? This will require best practices guidelines and likely to be major contribution of use cases. 
+- *Function of software* : How do we "uniformally"  the *function* of software? This will require best practices guidelines and likely to be major contribution of use cases. 
 
 ### Project Plan, and Timeline
 
-**Project Plan** 
-
 
 **Timeline**
+
+The activities described above will be carried out following the schedule below:
 
 ![](https://raw.githubusercontent.com/nniiicc/ESIP_TestBed_CodeMinMeta/master/Images/Gantt-MinMeta.png)
 
@@ -82,15 +80,22 @@ How do we "uniformally"  the *function* of software? This will require best prac
 
 ### Intended Outcomes and Contribution to ESIP (and broader) Community 
 
-1. Our initial short term work will complete a community scan / cross-walking of existing standards. We'll build off of the existing work from Mozilla Science and contribute back to the community that is driving this work. 
+1. Comprehensive crosswalk of existing descriptive metadata standards.
 
-2. A set of ESIP community use cases. 
+2. A set of ESIP community use cases.  
 
-3. A white paper recommendation [?]
+3. A white paper with best practice recommendations for using the standards
 
 4. A formal publication - in an open access journal - that describes the use cases in detail, as well as the progress that we've made. 
 
+### Budget
 
-### Works Cited
+| Item                                                                    | Estimated Cost | Explanation                                                                                        |
+|-------------------------------------------------------------------------|----------------|----------------------------------------------------------------------------------------------------|
+| Poster Creation (ESIP Winter Meeting)                                   | 65             | Cost of printing poster                                                                            |
+| Poster Submission (AGU)                                                 | 75             | Cost of submission to AGU                                                                          |
+| Poster Creation (AGU)                                                   | 65             | Cost of printing poster                                                                            |
+| Publication in Open Access Journal ( target: Earth Science Informatics) | 3000           | [Open access fee for Spring Journals](http://www.springer.com/gp/open-access/springer-open-choice) |
+| **Total**                                                                  | 3205           |                                                                                                    |
 
-Edwards, P., Mayernik, M. S., Batcheller, A., Bowker, G., & Borgman, C. (2011). Science friction: Data, metadata, and collaboration. Social Studies of Science, DOI: [10.1177/0306312711413314](http://sss.sagepub.com/content/early/2011/08/13/0306312711413314.abstract)  
+
