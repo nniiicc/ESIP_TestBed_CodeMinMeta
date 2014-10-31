@@ -17,10 +17,13 @@ Our initial work will include the following:
 - [DataONE Software registry](https://www.dataone.org/software-tools)
 - [Winning model documentation](https://www.kaggle.com/wiki/WinningModelDocumentationTemplate)
 - [MyExperiment workflow repository](http://www.myexperiment.org/)
-- Language/System specific package frameworks
-    - [Debian packages](http://www.fossology.org/projects/fossology/wiki/Debian_metadata)
-    - [CRAN R packages](e.g. http://cran.r-project.org/web/packages/spBayesSurv/index.html)
-    - [RPM packages](e.g. http://rpmfind.net/linux/rpm2html/mirroring.html)
+
+
+As well as language/System specific package frameworks:
+
+- [Debian packages](http://www.fossology.org/projects/fossology/wiki/Debian_metadata)
+- [CRAN R packages](e.g. http://cran.r-project.org/web/packages/spBayesSurv/index.html)
+- [RPM packages](e.g. http://rpmfind.net/linux/rpm2html/mirroring.html)
 
 2. From this crosswalking exercise, we will work in conjunction with other domains to create a minumum, or core, set of variables that can reliably describe the form and function of research software. This will include two rounds of use cases from the ESIP community (more details below). 
 
