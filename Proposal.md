@@ -3,10 +3,11 @@
 
 ### Project Description 
 
-**Introduction**
-The discovery and meaningful reuse of research software depends, in part, on accurate and meaninful descriptive metadata. While there a number of software metadata standards exist, these are often too specific (e.g. focused on a narrow stakeholder group or programming language) or too generic (i.e. extensions of metadata schemas used for related digital objects- such as DCMI) for accurately describing science software. 
+The discovery and meaningful reuse of research software depends, in part, on accurate and meaninful descriptive metadata. While a number of software metadata standards exist, these are often too specific (e.g. focused on a narrow stakeholder group or programming language) or too generic (i.e. extensions of metadata schemas used for related digital objects- such as DCMI) to be used in research domains like the geosciences.
 
-This test bed project will contribute to ongoing efforts to develop a minimal metadata standard for science software in JSON-LD - a lightweight semantic format. In particular, we will build off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare - and directly contribute to the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS. Our initial work will include:
+This test bed project will explore the deveolopment of a minimal metadata standard for science software in JSON-LD - a lightweight semantic format. We will build off of the the "code as a research object" project by Mozilla Sciene, Github, and Figshare, in particular the [ongoing work](https://github.com/mbjones/codemeta) of Matt Jones at NCEAS. 
+
+Our initial work will include the following:
 
 1. Completing a cross walking exercise that maps attribute value pairs from different existing software metadta standards. These include (but are not limited to):
  
@@ -22,8 +23,6 @@ This test bed project will contribute to ongoing efforts to develop a minimal me
     - [RPM packages](e.g. http://rpmfind.net/linux/rpm2html/mirroring.html)
 
 2. From this crosswalking exercise, we will work in conjunction with other domains to create a minumum, or core, set of variables that can reliably describe the form and function of research software. This will include two rounds of use cases from the ESIP community (more details below). 
-
-This coordinated work should make it possible for tools like [Fidgit](https://github.com/openjournals/fidgit) -  developed to lower the barrier to archiving and obtaining a persistent identifier for code -  to be leveraged and used by a broader network of software archves. 
 
 **Some questions and some (preliminary answers)** 
 
@@ -45,6 +44,10 @@ The limitations to depending - solely- on DOAP for doing this are:
 
 [JSON-LD](http://json-ld.org/) is a lightweight format that offers semantic meaning at a substantially lower barrier of creation than RDF, it has emerged over the last 2-3 years as the standard for serving data via APIs, and more importantly for our work here, it can leverage existing ontologies, like 'creative works' in [schema.org](http://schema.org/Code), for describing a codebase.
 
+*Are there any other benefits to working with existing efforts**
+
+This coordinated work should make it possible for tools like [Fidgit](https://github.com/openjournals/fidgit) -  developed to lower the barrier to archiving and obtaining a persistent identifier for code -  to be leveraged and used by a broader network of software archves. 
+
 *How does the ESIP community benefit from this work?*
 
 After completing the crosswalking exercise we will complete 3-5 use cases from ESIP software. This will include working with a software producer to create the metadata using our minimum standard -and then asking users (potential and actual) of that softare to judge the quality, and meaningfullness of these descriptions. 
@@ -53,17 +56,15 @@ We will report on this work at the 2015 ESIP Summer Meeting, and contribute our 
 
 This work will produce a white paper with best practices for creating metadata using the standard. 
 
-We are seeking funds, largely, to formally publish the findings from our use cases in an open access journal. 
+We are largely seeking funds in order to formally publish the findings from our use cases in an open access journal. 
 
-**Open Questions to be addressed in our early work**
+**This sounds optimistic. What are the known problems in existing efforts?**
  
-- *Controlled vocabulary* : Deciding on ESIP relevant CV for subject categories [e.g. we can do better than the original proposal to use [PLoS's taxonomy](http://www.plosone.org/taxonomy) for academic subjects]
+- *Controlled vocabulary* : This will be especially important in deciding on ESIP relevant CV for subject categories (e.g. we can do better than the original proposal to use [PLoS's taxonomy](http://www.plosone.org/taxonomy) for academic subjects)
  
 - *Function of software* : How do we "uniformally"  the *function* of software? This will require best practices guidelines and likely to be major contribution of use cases. 
 
 ### Timeline
-
-**Timeline**
 
 The activities described above will be carried out following the schedule below:
 
